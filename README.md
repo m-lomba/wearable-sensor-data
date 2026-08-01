@@ -9,8 +9,8 @@ Android app made of two modules (**wear** + **mobile**) that reads sensor data f
 
 ## How it works
 
-- On the **watch**, a foreground service registers as a listener on the available sensors and sends a message to the phone whenever a value changes (with a minimum interval of 0.1s between sends).
-- On the **phone**, the app receives the messages via `MessageClient` and updates the dashboard in real time with the incoming values.
+- On the watch, a foreground service registers as a listener on the available sensors and sends a message to the phone whenever a value changes (with a minimum interval of 0.1s between sends).
+- On the phone, the app receives the messages via `MessageClient` and updates the dashboard in real time with the incoming values.
 - The connection between the two devices is handled through `CapabilityClient`/`NodeClient`: the app automatically detects whether the watch is paired and whether it has the app installed, showing a button to install it from the Play Store if it doesn't.
 
 ## Supported sensors
