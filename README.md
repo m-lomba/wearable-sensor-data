@@ -25,22 +25,6 @@ Android app made of two modules (**wear** + **mobile**) that reads sensor data f
 - Proximity
 - Atmospheric pressure
 
-## Screenshots
-
-<p align="center">
-  <img src="screenshots/mobile-1.png" width="200" />
-  <img src="screenshots/mobile-2.png" width="200" />
-  <img src="screenshots/wear-1.png" width="150" />
-  <img src="screenshots/wear-2.png" width="150" />
-</p>
-
-## Project structure
-
-```
-├── mobile/   # Android app for smartphone (receives and displays the data)
-├── wear/     # Wear OS app for smartwatch (reads sensors and sends the data)
-```
-
 ## Requirements
 
 - Android Studio (Giraffe or later recommended)
