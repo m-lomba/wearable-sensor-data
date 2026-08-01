@@ -46,7 +46,3 @@ Android app made of two modules (**wear** + **mobile**) that reads sensor data f
 - Kotlin + Coroutines
 - Android Jetpack (ViewBinding, Lifecycle)
 - Wearable Data Layer API (`CapabilityClient`, `MessageClient`, `NodeClient`, `RemoteActivityHelper`)
-
-## License
-
-Source files include Apache 2.0 license headers. If you'd like the license to be explicit for anyone visiting the repo, consider adding a `LICENSE` file at the project root.
